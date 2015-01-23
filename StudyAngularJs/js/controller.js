@@ -28,7 +28,7 @@ function PhoneDetailController($scope, $routeParams){
 function PhoneListController($scope, $http)
 {
   //jQuery의 ajax 통신과 거의 유사하다.
-	$http.get('js/sample.json').success(
+	$http.get('sample/sample.json').success(
 	function(data)
 	{
 		$scope.phones = data;

@@ -15,7 +15,7 @@ angular.module('helloWorld.service', []).
 		}
 	}).
 	value('user',{
-		name: 'gggggggg',
+		name: 'aaaaaaaaaaa',
 		setName:function(name){
 			this.name=name;
 		}
