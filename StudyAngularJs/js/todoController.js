@@ -25,4 +25,6 @@ function todoController($scope, $http)
 			alert('할일을 입력해주세요!');
 		}
 	};
+	
+	$scope.submitStatus = true; 
 }
