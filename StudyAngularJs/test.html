@@ -1,0 +1,15 @@
+<html ng-app>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+	<script src="js/controller.js"></script>
+</head>
+<body ng-controller="PhoneListCtrl">
+ 
+  <ul>
+	 <li ng-repeat="phone in phones">
+	  이름 :: {{phone.name}} <br/>
+	 설명 :: {{phone.snippet}}
+	 </li>
+  </ul>
+</body>
+</html>
